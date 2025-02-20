@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.mainCkass{
+    background: gainsboro;
+}
+
+/*about section*/
+.aboutsection{
+    display: flex;
+}
+.aboutImg{
+    width: 800px;
+    height: 600px;
+}
+.about-details-div{
+    width: 50%;
+    background: burlywood;
+    padding: 20px;
+}
+.about-img-div{
+    width: 49%;
+    text-align: center;
+}
+.join-btn{
+    background: black;
+    color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border-radius:10px;
+}
+.bannerImg{
+    width: 100%;
+    height: 200px;
+
+}
+
+.bannerImg{
+    width: 100%;
+    height: 100vh;
+}
+/*shop section*/
+.shopSection{
+    background: lightgoldenrodyellow;
+    padding: 10px;
+    text-align: center;
+}
+.shopRow{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.shop-div{
+    background-color: darkgoldenrod;
+    border: 1px solid yellowgreen;
+    margin: 10px;
+}
+.shop-img{
+    width: 250px;
+    height: 250px;
+}
+.shop-detail{
+    padding: 10px;
+}
+.product-img{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+.product-div{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.product-details{
+    border-top: 1px solid gray;
+}
+.product-div:hover{
+    box-shadow: 0px 0px 5px black;
+    background-color: darkgray;
+}
